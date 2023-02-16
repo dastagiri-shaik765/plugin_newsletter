@@ -2,6 +2,7 @@
 
 var server = require('server');
 //Use the following for CSRF protection: add middleware in routes and hidden field on form
+//use the commit code
 var csrfProtection = require('*/cartridge/scripts/middleware/csrf');
 
 server.get(
